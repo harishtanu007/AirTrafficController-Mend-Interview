@@ -36,5 +36,5 @@ This application makes use of MySQL database to store aircrafts. data. <br>
 
 Install MySQL Server and configure it with a username and password. <br>
 Create a database("aircraft_db) in the server to store aircrafts.<br>
-Configure MySQL Server's port number, username,password and database name in the application.properties file. 
+Configure MySQL Server's port number, username ,password and database name in the application.properties file of our backend Spring Boot application. 
 
