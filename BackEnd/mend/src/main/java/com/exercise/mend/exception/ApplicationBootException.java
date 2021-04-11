@@ -11,7 +11,7 @@ public class ApplicationBootException extends Exception {
 	/**
 	 * Instantiates a new application boot exception.
 	 *
-	 * @param message the message
+	 * @param @param String error message
 	 */
 	public ApplicationBootException(String message) {
         super(message);

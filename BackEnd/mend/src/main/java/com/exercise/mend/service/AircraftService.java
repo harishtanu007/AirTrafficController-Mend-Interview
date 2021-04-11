@@ -6,7 +6,6 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import javax.validation.Valid;
-import javax.validation.Validator;
 
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -76,7 +75,7 @@ public class AircraftService {
 	 */
 	public List<Aircraft> getAircraftList() 
 	{
-		List<AircraftDao> aircrafts = aircraftRepository.findAll();
+		logger.info("Fetches list of aircrafts from the database");
 
 		return mapAircraftList(aircraftRepository.findAll());
 	}
@@ -113,6 +112,8 @@ public class AircraftService {
 		
 		List<AircraftDao> aircraftList= aircraftRepository.findAll();
 		if(aircraftList.size()==0) {
+			logger.info("Checks if there are any aircraft in the database");
+
 			aircraftResponse.setMessage("No Aircrafts to be removed");
 		}
 		else {
@@ -151,6 +152,7 @@ public class AircraftService {
 	 * @return the list
 	 */
 	private List<Aircraft> mapAircraftList(List<AircraftDao> aircrafts){
+		logger.info("Mapping Repository model to Rest Object");
 		return aircrafts
 				.stream()
 				.map(from -> this.dozerBeanMapper.map(from, Aircraft.class))

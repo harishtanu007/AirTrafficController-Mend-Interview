@@ -1,7 +1,5 @@
 package com.exercise.mend;
 
-import javax.annotation.PostConstruct;
-
 import org.dozer.DozerBeanMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -20,6 +18,11 @@ import com.exercise.mend.models.AircraftResponse;
 public class AirTrafficControlApplication {
 
 	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(AirTrafficControlApplication.class, args);
 	}
@@ -34,15 +37,15 @@ public class AirTrafficControlApplication {
 	    return new DozerBeanMapper();
 	}
 	
+	/**
+	 * Aircraft response.
+	 *
+	 * @return the aircraft response bean
+	 */
 	@Bean
 	public AircraftResponse aircraftResponse() {
 	    return new AircraftResponse();
 	}
 	
 	
- 	@PostConstruct
-	 public void generate() {
-		 
-	 }
-
 }

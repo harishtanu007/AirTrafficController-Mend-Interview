@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.exercise.mend.exception.QueueSizeException;
 import com.exercise.mend.models.Aircraft;
 import com.exercise.mend.models.AircraftResponse;
 import com.exercise.mend.service.AircraftService;

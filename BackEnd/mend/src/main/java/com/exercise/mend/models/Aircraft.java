@@ -2,14 +2,12 @@ package com.exercise.mend.models;
 
 import java.util.logging.Logger;
 
-import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 
 import com.exercise.mend.utils.AircraftSize;
 import com.exercise.mend.utils.AircraftType;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Aircraft.
  */

@@ -6,15 +6,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import com.exercise.mend.utils.AircraftSize;
 import com.exercise.mend.utils.AircraftType;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class AircraftDao.
  */
