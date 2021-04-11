@@ -23,6 +23,8 @@ You should be able to start the example application by executing com.myapp.Myapp
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+Installs all the dependencies required to start our application 
 
 ### `npm start`
 
