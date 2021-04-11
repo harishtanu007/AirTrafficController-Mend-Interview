@@ -26,9 +26,9 @@ This installs all the dependencies required to start our application
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Access the url(http://localhost:3000) to view it in the browser.
+Access the url(http://localhost:3000) to view it in the browser.<br>
 
-Enqueue operation: To enqueue an aircraft, click on Enqueue button and add the required details(Type and Size), click on save. This adds the aircraft to the queue.
-Dequeue operation: To dequeue an aircraft, click on Dequeue button. This requires an aircraft based on its Type and Size.
+Enqueue operation: To enqueue an aircraft, click on Enqueue button and add the required details(Type and Size), click on save. This adds the aircraft to the queue.<br>
+Dequeue operation: To dequeue an aircraft, click on Dequeue button. This requires an aircraft based on its Type and Size.<br>
 
 
