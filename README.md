@@ -1,5 +1,12 @@
 # AirTrafficController-Mend-Interview
 
+# MySQL:
+This application makes use of MySQL database to store aircrafts. data. <br>
+
+Install MySQL Server and configure it with a username and password. <br>
+Create a database("aircraft_db) in the server to store aircrafts.<br>
+Configure MySQL Server's port number, username ,password and database name in the application.properties file of our backend Spring Boot application. 
+
 # Spring Boot Backend application
 
 The project is based on the following technologies:
@@ -28,13 +35,9 @@ This installs all the dependencies required to start our application
 Runs the app in the development mode.<br>
 Access the url(http://localhost:3000) to view it in the browser.<br>
 
+![image](https://user-images.githubusercontent.com/33089746/114338283-c3baf380-9b20-11eb-9604-b36ba9c55cc4.png)
+
+
 Enqueue operation: To enqueue an aircraft, click on Enqueue button and add the required details(Type and Size), click on save. This adds the aircraft to the queue.<br>
 Dequeue operation: To dequeue an aircraft, click on Dequeue button. This requires an aircraft based on its Type and Size.<br>
-
-# MySQL:
-This application makes use of MySQL database to store aircrafts. data. <br>
-
-Install MySQL Server and configure it with a username and password. <br>
-Create a database("aircraft_db) in the server to store aircrafts.<br>
-Configure MySQL Server's port number, username ,password and database name in the application.properties file of our backend Spring Boot application. 
 
